@@ -1,0 +1,12 @@
+#ifndef BFACTORY_GLOBAL_H
+#define BFACTORY_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(BFACTORY_LIBRARY)
+#  define BFACTORYSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define BFACTORYSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // BFACTORY_GLOBAL_H

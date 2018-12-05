@@ -1,0 +1,4 @@
+#ifndef MTCNNFACTORY_H
+#define MTCNNFACTORY_H
+
+#endif // MTCNNFACTORY_H
