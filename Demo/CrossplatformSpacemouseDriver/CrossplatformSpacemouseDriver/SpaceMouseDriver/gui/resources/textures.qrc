@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="cube.png">textures/cube.png</file>
+    </qresource>
+</RCC>
